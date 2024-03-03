@@ -3,7 +3,7 @@ INSERT INTO fakultas (name) VALUES('Fakultas Ekonomi');
 INSERT INTO fakultas (name) VALUES('Fakultas Hukum');
 INSERT INTO fakultas (name) VALUES('Fakultas Ilmu Budaya');
 
-INSERT INTO tipe_panitia (na me) VALUES('Panitia Inti');
+INSERT INTO tipe_panitia (name) VALUES('Panitia Inti');
 INSERT INTO tipe_panitia (name) VALUES('Badan Pengurus Harian');
 
 INSERT INTO posisi_pengurus_inti (name) VALUES('Project Officer');
