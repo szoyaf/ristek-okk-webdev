@@ -1,0 +1,962 @@
+{
+	"info": {
+		"_postman_id": "e7ba071f-c3ba-49c9-a604-eb3874654cc7",
+		"name": "Ristek",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33182049"
+	},
+	"item": [
+		{
+			"name": "Fakultas",
+			"item": [
+				{
+					"name": "GetListFakultas",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Fakultas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api-zoya/fakultas",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"fakultas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Fakultas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 30,\r\n    \"name\": \"Fakultas Kesehatan Masyarakatssss\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/fakultas/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"fakultas",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Fakultas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 30\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/fakultas/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"fakultas",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Jalur Masuk",
+			"item": [
+				{
+					"name": "GetListJalurMasuk",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api-zoya/jalurmasuk",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"jalurmasuk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Jalur Masuk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"SNBT\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/jalurmasuk",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"jalurmasuk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Jalur Masuk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"name\": \"SNBT\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/jalurmasuk/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"jalurmasuk",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Jalur Masuk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/jalurmasuk/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"jalurmasuk",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Divisi BPH",
+			"item": [
+				{
+					"name": "GetListDivisiBph",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Divisi BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api-zoya/divisibph",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"divisibph"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Divisi BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 96,\r\n    \"name\": \"asd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/divisibph/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"divisibph",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Divisi BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 96,\r\n    \"name\": \"asd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/divisibph/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"divisibph",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Posisi BPH",
+			"item": [
+				{
+					"name": "GetListPosisiBph",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Posisi BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"posisi baru bph\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisibph",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisibph"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Posisi BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 14,\r\n    \"name\": \"posisi baru bsdfsdsph\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisibph/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisibph",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Posisi BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 14\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisibph/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisibph",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tipe Panitia",
+			"item": [
+				{
+					"name": "GetListTipePanitia",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Tipe Panitia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"tipe panitia baru\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisipengurusinti",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisipengurusinti"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Tipe Panitia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 13,\r\n    \"name\": \"tipe panitia baruss\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/tipepanitia/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"tipepanitia",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Tipe Panitia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 13\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/tipepanitia/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"tipepanitia",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Posisi Pengurus Inti",
+			"item": [
+				{
+					"name": "GetListPosisiPengurusInti",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Posisi Pengurus Inti",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"tipe panitia baru\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisipengurusinti",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisipengurusinti"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Posisi Pengurus Inti",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"id\": 62,\r\n        \"name\": \"pengurs inti barsdsu\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisipengurusinti/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisipengurusinti",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Posisi Pengurus Inti",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"id\": 62\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/posisipengurusinti/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"posisipengurusinti",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Panitia",
+			"item": [
+				{
+					"name": "GetListPanitia",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetListAvailableMentors",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api-zoya/available-mentors",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"available-mentors"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Panitia Inti",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"npm\": \"1234554\",\r\n    \"nama\": \"mamamia\",\r\n    \"angkatan\": \"2023\",\r\n    \"fakultas_id\": 2,\r\n    \"tipe_panitia_id\": 1,\r\n    \"posisi_pengurus_inti_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/panitia",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"panitia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Panitia BPH",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"npm\": \"55555\",\r\n    \"nama\": \"mentor guy 3\",\r\n    \"angkatan\": \"2023\",\r\n    \"fakultas_id\": 2,\r\n    \"tipe_panitia_id\": 2,\r\n    \"divisi_bph_id\": 15,\r\n    \"posisi_bph_id\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/panitia",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"panitia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Panitia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updated_panitia_id\": 14\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/panitia/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"panitia",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Panitia",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updated_panitia_id\": 17,\r\n    \"npm\": \"1234554\",\r\n    \"nama\": \"jano mentor\",\r\n    \"angkatan\": \"2023\",\r\n    \"fakultas_id\": 2,\r\n    \"tipe_panitia_id\": 4,\r\n    \"posisi_pengurus_inti_id\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/panitia/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"panitia",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Mentor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"npm\": \"1234554\",\r\n    \"nama\": \"mentor 1\",\r\n    \"angkatan\": \"2023\",\r\n    \"fakultas_id\": 28\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/mentor",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"mentor"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Kelompok OKK",
+			"item": [
+				{
+					"name": "GetListKelompokOkk",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Kelompok OKK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomor_kelompok\" : \"207\",\r\n    \"mentor_id\": 18\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/kelompokokk",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"kelompokokk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update KelompokOKK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/kelompokokk",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"kelompokokk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Kelompok OKK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/kelompokokk",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"kelompokokk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get list Peserta OKK",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Create Peserta OKK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"npm\": \"5453523523\",\r\n    \"nama\": \"aaa\",\r\n    \"angkatan\": 2023,\r\n    \"fakultas_id\": 27,\r\n    \"jalur_masuk_id\": 1,\r\n    \"kelompok_okk_id\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/peserta",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"peserta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Peserta OKK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updated_peserta_id\": 4,\r\n    \"npm\": \"5353566ddd6\",\r\n    \"nama\": \"shaney zoya fiandi\",\r\n    \"angkatan\": 2023,\r\n    \"fakultas_id\": 28,\r\n    \"jalur_masuk_id\": 1,\r\n    \"kelompok_okk_id\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/peserta/update",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"peserta",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Peserta OKK",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"updated_peserta_id\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api-zoya/peserta/delete",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api-zoya",
+								"peserta",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
